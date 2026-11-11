@@ -27,6 +27,8 @@ The dataset contains 1,500 banknote observations and six physical measurement fe
 
 The target variable indicates whether a banknote is genuine or counterfeit.
 
+**Dataset Source:** [Fake Bills Detection Dataset – Kaggle](https://www.kaggle.com/datasets/imbilal/fake-bills-detection-dataset)
+
 ## Methodology
 
 1. **Data Loading:** Imported the dataset using Pandas.
@@ -40,7 +42,7 @@ The target variable indicates whether a banknote is genuine or counterfeit.
 
 ## Results
 
-The KNN classifier achieved **98.33% accuracy** on the held-out test dataset.
+The KNN classifier achieved **98.33% accuracy** on the held-out test dataset (300 observations).
 
 ### Confusion Matrix
 
@@ -68,6 +70,9 @@ The KNN classifier achieved **98.33% accuracy** on the held-out test dataset.
 ## Project Files
 
 - `project4JT.ipynb` — Jupyter Notebook containing the original analysis and model development.
+- `fake_bills.csv` — Dataset used for the classification project.
+- `DATASET.md` — Dataset source and attribution.
+- `LICENSE-DATASET` — Dataset license information.
 
 ## Future Improvements
 
